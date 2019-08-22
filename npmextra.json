@@ -1,0 +1,17 @@
+{
+  "gitzone": {
+    "module": {
+      "githost": "gitlab.com",
+      "gitscope": "apiglobal",
+      "gitrepo": "typedrequest-interfaces",
+      "shortDescription": "interfaces for making typed requests",
+      "npmPackagename": "@apiglobal/typedrequest-interfaces",
+      "license": "MIT",
+      "projectDomain": "api.global"
+    }
+  },
+  "npmci": {
+    "npmGlobalTools": [],
+    "npmAccessLevel": "public"
+  }
+}
