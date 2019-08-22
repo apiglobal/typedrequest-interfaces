@@ -1,6 +1,6 @@
 {
   "name": "@apiglobal/typedrequest-interfaces",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "description": "interfaces for making typed requests",
   "main": "dist/index.js",
