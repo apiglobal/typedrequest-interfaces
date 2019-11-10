@@ -5,7 +5,7 @@ export interface ITypedRequest {
 }
 
 export interface IBroadCastEvent<T> {
-  broadcastMessage: string;
+  name: string;
   uniqueEventId: string;
   payload: T;
 }
