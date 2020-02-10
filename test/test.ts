@@ -1,7 +1,11 @@
 import { expect, tap } from '@pushrocks/tapbundle';
 import * as typedrequestInterfaces from '../ts/index';
 
-interface IRequestSample extends typedrequestInterfaces.implementsTR<typedrequestInterfaces.ITypedRequest, IRequestSample> {
+interface IRequestSample
+  extends typedrequestInterfaces.implementsTR<
+    typedrequestInterfaces.ITypedRequest,
+    IRequestSample
+  > {
   method: 'hey';
   request: {};
   response: {};
