@@ -11,7 +11,7 @@ export interface ITypedRequest {
 
 export type implementsTR<T, U extends T> = {};
 
-export interface IBroadCastEvent<T> {
+export interface ITypedEvent<T> {
   name: string;
   uniqueEventId: string;
   payload: T;
