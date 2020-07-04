@@ -1,5 +1,12 @@
 export interface ITypedRequest {
   method: string;
+  authInfo?: {
+    jwt: string;
+  };
+  serverData?: {
+    jwtData: any;
+    jwtValid: boolean;
+  };
   request: object;
   response: object;
   error?: { text: string; data: any };
