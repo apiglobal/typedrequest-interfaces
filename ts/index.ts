@@ -58,3 +58,10 @@ export interface ITypedEvent<T> {
   uniqueEventId: string;
   payload: T;
 }
+
+export interface ITag {
+  name: string;
+  payload: any;
+}
+
+export type implementsTag<T, U extends T> = {};
